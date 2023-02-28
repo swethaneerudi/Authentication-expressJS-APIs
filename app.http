@@ -1,0 +1,65 @@
+//API 1 
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "name": "Adam Richard",
+  "password": "richard_567",
+  "gender": "male",
+  "location": "Detroit"
+}
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "sweety666",
+  "name": "Swetha",
+  "password": "swetha_777",
+  "gender": "female",
+  "location": "Hyd"
+}
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "sam_786",
+  "name": "samatha",
+  "password": "sam_66",
+  "gender": "female",
+  "location": "Detroit"
+}
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "sushanth_768",
+  "name": "Sushanth",
+  "password": "sasi_666",
+  "gender": "male",
+  "location": "Detroit"
+}
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567"
+}
+###
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_567",
+  "newPassword": "richard@123"
+}
+
+
+
+
